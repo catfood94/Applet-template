@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-button": "/static/vant/button/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-grid": "/static/vant/grid/index",
+    "van-nav-bar": "/static/vant/nav-bar/index",
+    "van-grid-item": "/static/vant/grid-item/index"
+  }
+}

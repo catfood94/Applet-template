@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/equipment/main",
+    "pages/logs/main",
+
+    "pages/medias/imgs/main",
+    "pages/medias/maps/main",
+    "pages/medias/video/main",
+    "pages/medias/voice/main",
+    "pages/medias/backgroundAudio/main",
+    "pages/medias/realTime/main",
+    "pages/medias/soundRecording/main",
+    "pages/medias/photo/main",
+    "pages/medias/richText/main",
+    "pages/medias/synthesis/main"
+  ],
+  "requiredBackgroundModes": ["audio"],
+  "usingComponents": {
+    "van-button": "/static/vant/button/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "媒体",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "设备",
+      "pagePath": "pages/equipment/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }, {
+      "text": "动画",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    },{
+      "name": "设备",
+      "pagePath": "pages/equipment/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "动画",
+      "pagePath": "pages/logs/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }],
+    "position": "bottom"
+  }
+}
