@@ -54,11 +54,6 @@
       "pagePath": "pages/index/main",
       "icon": "static/tabs/home.png",
       "activeIcon": "static/tabs/home-active.png"
-    },{
-      "name": "设备",
-      "pagePath": "pages/equipment/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
     }, {
       "name": "动画",
       "pagePath": "pages/logs/main",

@@ -10,6 +10,7 @@
 		"coverView": true,
 		"nodeModules": false,
 		"autoAudits": false,
+		"uglifyFileName": false,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
 		"uploadWithSourceMap": true,
@@ -25,6 +26,7 @@
 	"projectname": "kuaiwan",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"libVersion": "2.10.3",
 	"condition": {
 		"search": {
 			"current": -1,
